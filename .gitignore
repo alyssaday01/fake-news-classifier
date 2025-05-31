@@ -1,0 +1,46 @@
+# Ignore raw data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+
+# Ignore data folders (if you have them)
+Datasets/
+data/
+raw_data/
+__pycache__/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore environment files
+.env
+*.env
+*.venv/
+.venv/
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.ckpt
+
+# Ignore Python cache
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Ignore virtual environments
+env/
+venv/
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
